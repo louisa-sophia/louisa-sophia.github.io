@@ -110,9 +110,10 @@ ul li a:hover{
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    text-align: center;
-    margin: 0;
+    margin-left: 30px;
+    margin-bottom: -30px;
     padding: 0;
+    z-index: 0;
 }
 
 #container div#contactus h1{
@@ -137,17 +138,6 @@ ul li a:hover{
     z-index: 1;
 }
 
-#container div#gluucause h2{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-
 /* All p */
 #container div#aboutus p{
     position: absolute;
@@ -170,6 +160,12 @@ ul li a:hover{
     z-index: 1;
 }
 
+iframe{
+    margin-left: 720px;
+    z-index: 1;
+    
+}
+
 /* All div backgrounds */
 #container div#home{
    background: #006c67;
@@ -177,10 +173,12 @@ ul li a:hover{
 
 #container div#aboutus{
     background: #f194b4;
+
 }
 
 #container div#ourservices{
     background: #ffb100;
+
 }
 
 #container div#ourservices2{
@@ -215,23 +213,23 @@ img#aboutus{
     position: absolute;
     max-width: 600px;
     left: 5px;
-    top: -450px;
+    top: -400px;
     z-index: 0;  
   }
 
   img#hausmeals{
     position: absolute;
     max-width: 600px;
-    left: 100px;
-    top: 80px;
+    left: 5px;
+    top: 60px;
     z-index: 0;  
   }
 
   img#fiteats{
     position: absolute;
     max-width: 600px;
-    left: 700px;
-    top: 40px;
+    left: 600px;
+    top: 60px;
     z-index: 0;  
   }
 

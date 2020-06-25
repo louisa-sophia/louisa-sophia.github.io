@@ -3,21 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-        <link rel ="stylesheet" type="text/css" href="style.css">
+    <title>Gluu!</title>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media screen and (max-width: 600px){
+            #container div#home h1{
+                font-size: 100px;
+            }
+        }
+            
+    </style>
 </head>
+
+<!--Button-->
 <body>
-    <ul>
-       <li><a href="#home">Home</a></li>
-       <li><a href="#aboutus">About Us</a></li> 
-       <li><a href="#whyhealth">Why Health?</a></li> 
-       <li><a href="#joinus">Join Us</a></li> 
-    </ul>
+    <div>
+        <button id="toggle-btn" onclick="toggle()">Click Me</button>
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li> 
+            <li><a href="#whyhealth">Why Health?</a></li> 
+            <li><a href="#joinus">Join Us</a></li> 
+         </ul>
+    </div>
+
+<!--Pages-->
     <div id="container">
-        <div id="home"><h1>Cerdik!</h1></div>
-        <div id="aboutus"><h1>About Us</h1></div>
-        <div id="whyhealth"><h1>Why Health?</h1></div>
+        <div id="home">
+            <h1 style="font-size: 200px; color: #ffb100;">Gluu.</h1>
+        </div>
+        <div id="aboutus">
+            <img id="aboutus"; src="vegan.png"; alt="Food";>
+            <h1 style="font-size: 100px; color: #ffebc6">About Us</h1>
+            <h2 style="font-size: 50px; color: #262626"> Nutritional diet plans for patient healing.</h2>
+            <p style="font: 20px; color:#262626">Gluu.! is a youth-led diet plan service designed to aid patients with 
+                chronic illnesses in figuring out beneficial and nutritious consumptions for their health.</p>
+        </div>
+        <div id="whyhealth">
+            <h1 style="font-size: 100px; color: #006c67">Our Services</h1></div>
         <div id="joinus"><h1>Join Us</h1></div>
     </div>
+
+<!--Scripts-->
+    <script>
+        function toggle() {
+            var navbar = document.getElementById("nav");
+            if (navbar.style.display === "none") {
+                navbar.style.display = "block";
+            } else {
+                nav.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>

@@ -95,7 +95,7 @@ ul li a:hover{
     padding: 0;
 }
 
-#container div#whyhealth h1{
+#container div#ourservices h1{
     position: absolute;
     top: 30%;
     transform: translateY(-50%);
@@ -105,7 +105,17 @@ ul li a:hover{
     padding: 0;
 }
 
-#container div#joinus h1{
+#container div#gluucause h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#container div#contactus h1{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -117,6 +127,17 @@ ul li a:hover{
 
 /* All h2 */
 #container div#aboutus h2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#container div#gluucause h2{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -136,6 +157,17 @@ ul li a:hover{
     text-align: center;
     margin-left: 330px;
     padding: 0;
+    z-index: 1;
+}
+
+#container div#ourservices2 p{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-30%);
+    text-align: center;
+    margin: 100px;
+    padding: 0;
+    z-index: 1;
 }
 
 /* All div backgrounds */
@@ -147,15 +179,19 @@ ul li a:hover{
     background: #f194b4;
 }
 
-#container div#whyhealth{
+#container div#ourservices{
     background: #ffb100;
 }
 
-#container div#whyhealth2{
+#container div#ourservices2{
     background: #ffb100;
 }
 
-#container div#joinus{
+#container div#gluucause{
+    background: #ffebc6;
+}
+
+#container div#contactus{
     background: #003844;
 }
 
@@ -171,6 +207,40 @@ img#aboutus{
     position: absolute;
     max-width: 800px;
     left: 465px;
-    top: -1000px;
+    top: -450px;
     z-index: 0;
   }
+
+  img#corimeals{
+    position: absolute;
+    max-width: 600px;
+    left: 5px;
+    top: -450px;
+    z-index: 0;  
+  }
+
+  img#hausmeals{
+    position: absolute;
+    max-width: 600px;
+    left: 100px;
+    top: 80px;
+    z-index: 0;  
+  }
+
+  img#fiteats{
+    position: absolute;
+    max-width: 600px;
+    left: 700px;
+    top: 40px;
+    z-index: 0;  
+  }
+
+  .thumbnail:hover {
+    position:relative;
+    top: 25px;
+    left: 35px;
+    width: 500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}

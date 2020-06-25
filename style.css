@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 /* Fonts */
 @font-face { 
     font-family: StretchSansFree; src: url("stretchsansfree.otf");
@@ -28,33 +31,34 @@ body{
 /* All Nav Button */
 ul{
     position: fixed;
-    top: 40%;
-    left: 0;
+    top: 6%;
+    left: 80px;
     transform: translateY(-50%);
-    margin: 0;
+    margin: 40px;
     padding: 0;
     z-index: 1;
 }
 
 ul li{
-    list-style: none;
+    list-style: initial;
+    display: inline;
 }
 
 ul li a{
-    display: block;
+    display: inline;
     text-decoration: none;
     height: 30px;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 10px;
     background: #ffffff;;
     width: 200px;
     height: 40px;
     padding-top: 15px;
     color:#262626;
-    margin: 4px 0;
-    padding-left: 15px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    margin: 30px 0;
+    padding: 5px;
+    border-radius: 30px;
+
 }
 
 ul li a:hover{
@@ -138,6 +142,17 @@ ul li a:hover{
     z-index: 1;
 }
 
+/*All h3 */
+#container div#gluucause h3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 250px;
+    padding: 0;
+    z-index: 0;
+}
 /* All p */
 #container div#aboutus p{
     position: absolute;
@@ -160,8 +175,9 @@ ul li a:hover{
     z-index: 1;
 }
 
-iframe{
+#gluucause div#iframe{
     margin-left: 720px;
+    vertical-align: middle;
     z-index: 1;
     
 }
@@ -204,7 +220,7 @@ img#aboutus{
   img#stethoscope{
     position: absolute;
     max-width: 800px;
-    left: 465px;
+    left: 470px;
     top: -450px;
     z-index: 0;
   }
@@ -212,7 +228,7 @@ img#aboutus{
   img#corimeals{
     position: absolute;
     max-width: 600px;
-    left: 5px;
+    left: 300px;
     top: -400px;
     z-index: 0;  
   }
@@ -237,6 +253,7 @@ img#aboutus{
     position:relative;
     top: 25px;
     left: 35px;
+    right: 35px;
     width: 500px;
     height:auto;
     display:block;

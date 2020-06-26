@@ -197,6 +197,17 @@ ul li a:hover{
     z-index: 0;
 }
 
+#container div#contactus p{
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    z-index: 0;
+    line-height: 20px;
+}
+
 /* Iframes */
 #gluucause div#iframe1{
     margin-left: 720px;
@@ -276,7 +287,7 @@ img#hausmeals{
     position: absolute;
     max-width: 600px;
     left: 5px;
-    top: 10px;
+    top: -20px;
     z-index: 1;  
 }
 
@@ -284,7 +295,7 @@ img#fiteats{
     position: absolute;
     max-width: 600px;
     left: 600px;
-    top: 10px;
+    top: -20px;
     z-index: 0;  
 }
 

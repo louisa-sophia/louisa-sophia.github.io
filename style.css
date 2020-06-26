@@ -36,7 +36,7 @@ ul{
     transform: translateY(-50%);
     margin: 40px;
     padding: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 ul li{
@@ -60,6 +60,7 @@ ul li a{
     border-radius: 30px;
 
 }
+
 
 ul li a:hover{
     background: #262626;
@@ -122,12 +123,12 @@ ul li a:hover{
 
 #container div#contactus h1{
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     width: 100%;
-    text-align: center;
-    margin: 0;
+    margin-left: 700px;
     padding: 0;
+    z-index: 0;
 }
 
 /* All h2 */
@@ -139,7 +140,7 @@ ul li a:hover{
     text-align: center;
     margin: 0;
     padding: 0;
-    z-index: 1;
+    z-index: 0.5;
 }
 
 /*All h3 */
@@ -153,6 +154,17 @@ ul li a:hover{
     padding: 0;
     z-index: 0;
 }
+
+#container div#contactus h3{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+    margin-left: 720px;
+    padding: 0;
+    z-index: 0;
+    line-height: 20px;
+}
 /* All p */
 #container div#aboutus p{
     position: absolute;
@@ -162,25 +174,44 @@ ul li a:hover{
     text-align: center;
     margin-left: 330px;
     padding: 0;
-    z-index: 1;
+    z-index: 0.5;
 }
 
 #container div#ourservices2 p{
     position: absolute;
     top: 70%;
     transform: translateY(-30%);
+    width: 500px;
     text-align: center;
-    margin: 100px;
+    margin-left: 640px;
     padding: 0;
     z-index: 1;
 }
 
-#gluucause div#iframe{
+#container div#contactus p{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-30%);
+    text-align: center;
+    padding: 0;
+    z-index: 0;
+}
+
+/* Iframes */
+#gluucause div#iframe1{
     margin-left: 720px;
     vertical-align: middle;
     z-index: 1;
     
 }
+#contactus div#iframe2{
+    margin-left: 760px;
+    vertical-align: middle;
+    z-index: 0;
+    
+}
+
+
 
 /* All div backgrounds */
 #container div#home{
@@ -215,41 +246,49 @@ img#aboutus{
     left: -300px;
     top: -300px;
     z-index: 0;
-  }
+}
 
-  img#stethoscope{
+img#stethoscope{
     position: absolute;
     max-width: 800px;
     left: 470px;
     top: -450px;
     z-index: 0;
-  }
+}
 
-  img#corimeals{
+img#egg{
     position: absolute;
-    max-width: 600px;
-    left: 300px;
-    top: -400px;
-    z-index: 0;  
-  }
+    min-width: 1200px;
+    left: -400px;
+    top: -490px;
+    z-index: 0;
+}
 
-  img#hausmeals{
+img#corimeals{
     position: absolute;
     max-width: 600px;
     left: 5px;
-    top: 60px;
+    top: -480px;
     z-index: 0;  
-  }
+}
 
-  img#fiteats{
+img#hausmeals{
+    position: absolute;
+    max-width: 600px;
+    left: 5px;
+    top: 10px;
+    z-index: 1;  
+}
+
+img#fiteats{
     position: absolute;
     max-width: 600px;
     left: 600px;
-    top: 60px;
+    top: 10px;
     z-index: 0;  
-  }
+}
 
-  .thumbnail:hover {
+.thumbnail:hover {
     position:relative;
     top: 25px;
     left: 35px;
@@ -259,3 +298,20 @@ img#aboutus{
     display:block;
     z-index:999;
 }
+
+img#vegan{
+    position: absolute;
+    left: -300px;
+    top: -400px;
+    z-index: 0;
+    height: 500px;
+}
+
+img#fruit{
+    position: absolute;
+    left: -300px;
+    top: -100px;
+    z-index: 0;
+    max-width: 1000px;
+}
+
